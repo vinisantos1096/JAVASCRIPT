@@ -1,0 +1,11 @@
+var n1 = 1545.5
+
+n1.toFixed(2) = pra mostrar 1545.50
+
+n1.toFixed(2).replace('.', ',') pra trocar o . por virgula mostrando = 1545,50
+
+n1.toLocaleString('pt-Br', {style: 'currency', currency: 'BRL'})
+=== vai mostrar o numero 1545.50 em BRL == R$ 1,545.50
+
+se mudar o currency: 'BRL' pra 'USD' 
+=== vai mostrar o numero 1545.50 em dolar == US$ 1,545.50
